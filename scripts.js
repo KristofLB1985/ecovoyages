@@ -1,4 +1,5 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    alert('Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.');
+// script.js
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Ajouter des fonctionnalités dynamiques ici
 });
