@@ -1,70 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecovoyages - Voyages Économiques</title>
+    <title>Ecovoyages - Accueil</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Ecovoyages</h1>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#destinations">Destinations</a></li>
-                <li><a href="#conseils">Conseils</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Ecovoyages</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="offres.html">Offres</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="accueil">
-            <h2>Bienvenue sur Ecovoyages</h2>
-            <p>Votre guide pour des voyages économiques et inoubliables. Découvrez nos conseils et bons plans pour voyager à moindre coût.</p>
-        </section>
-        <section id="destinations">
-            <h2>Destinations</h2>
-            <div class="destinations-list">
-                <article>
-                    <h3>Destination 1</h3>
-                    <p>Descriptif de la destination 1.</p>
-                </article>
-                <article>
-                    <h3>Destination 2</h3>
-                    <p>Descriptif de la destination 2.</p>
-                </article>
-                <article>
-                    <h3>Destination 3</h3>
-                    <p>Descriptif de la destination 3.</p>
-                </article>
+    
+    <section class="hero">
+        <div class="container">
+            <h2>Voyagez sans vous ruiner</h2>
+            <p>Découvrez les meilleures offres de voyages économiques.</p>
+        </div>
+    </section>
+    
+    <section class="offers">
+        <div class="container">
+            <h2>Offres Récentes</h2>
+            <div class="offer-grid">
+                <div class="offer">
+                    <img src="image1.jpg" alt="Image de l'offre 1">
+                    <h3>Offre 1</h3>
+                    <p>Description de l'offre 1.</p>
+                </div>
+                <div class="offer">
+                    <img src="image2.jpg" alt="Image de l'offre 2">
+                    <h3>Offre 2</h3>
+                    <p>Description de l'offre 2.</p>
+                </div>
+                <!-- Ajoutez d'autres offres ici -->
             </div>
-        </section>
-        <section id="conseils">
-            <h2>Conseils pour Voyager Économiquement</h2>
-            <ul>
-                <li>Utilisez des comparateurs de prix pour trouver les vols les moins chers.</li>
-                <li>Réservez votre hébergement à l'avance pour obtenir les meilleures offres.</li>
-                <li>Voyagez en basse saison pour profiter des prix réduits.</li>
-                <li>Utilisez les transports en commun locaux plutôt que les taxis.</li>
-            </ul>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section class="destinations">
+        <div class="container">
+            <h2>Destinations Populaires</h2>
+            <div class="destination-grid">
+                <div class="destination">
+                    <img src="destination1.jpg" alt="Destination 1">
+                    <h3>Destination 1</h3>
+                    <p>Description de la destination 1.</p>
+                </div>
+                <div class="destination">
+                    <img src="destination2.jpg" alt="Destination 2">
+                    <h3>Destination 2</h3>
+                    <p>Description de la destination 2.</p>
+                </div>
+                <!-- Ajoutez d'autres destinations ici -->
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <section id="contact">
-            <h2>Contactez-nous</h2>
-            <form id="contact-form">
-                <label for="name">Nom:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
-        </section>
-        <p>&copy; 2024 Ecovoyages. Tous droits réservés.</p>
+        <div class="container">
+            <p>&copy; 2024 Ecovoyages. Tous droits réservés.</p>
+        </div>
     </footer>
-    <script src="scripts.js"></script>
 </body>
+
 </html>
