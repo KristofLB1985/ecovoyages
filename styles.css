@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -40,6 +41,9 @@ h2 {
 
 section {
     margin-bottom: 2rem;
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .destinations-list {
@@ -52,6 +56,7 @@ section {
     border: 1px solid #ddd;
     padding: 1rem;
     width: calc(33% - 2rem);
+    background-color: #fff;
 }
 
 footer {
