@@ -45,7 +45,7 @@ header nav ul li a {
 }
 
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('images/hero.jpg') no-repeat center center/cover;
     color: #fff;
     padding: 5rem 0;
     text-align: center;
@@ -53,6 +53,9 @@ header nav ul li a {
 
 .offers, .destinations {
     padding: 2rem 0;
+    background: #fff;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .offers h2, .destinations h2 {
